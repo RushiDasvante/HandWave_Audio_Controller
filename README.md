@@ -9,7 +9,7 @@ The HandWave Audio Controller is a Python-based application that leverages compu
 Use Cases:
 <br>
 <br>
-Accessibility:
+1.Accessibility:
 <br>
 <br>
 This application can be highly useful for individuals with mobility impairments who might find traditional input devices like keyboards or mice challenging to use.
@@ -17,23 +17,23 @@ This application can be highly useful for individuals with mobility impairments 
 <br>
 <br>
 <br>
-Contactless Control:
+2.Contactless Control:
 <br>
 
 In environments where hygiene is a concern (e.g., in medical settings or public kiosks), this contactless method of controlling audio can be advantageous.
 <br>
 <br>
-Entertainment Systems:
+3.Entertainment Systems:
 <br>
 
 The project can be integrated into home entertainment systems, allowing users to control the volume of their media playback without needing a remote or physical interaction.
 <br>
 <br>
-Smart Home Integration:
+4.Smart Home Integration:
 <br>
 The gesture-based control could be expanded to manage other smart home devices, providing a seamless and intuitive user experience.
 <br>
 <br>
-Public Spaces:
+5.Public Spaces:
 <br>
 In public spaces like museums, galleries, or exhibitions, where interactive displays might require audio control, this technology could be employed to allow users to adjust the volume in a contactless and intuitive manner.
