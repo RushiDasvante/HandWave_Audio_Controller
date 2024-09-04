@@ -11,20 +11,25 @@ Use Cases:
 <br>
 Accessibility:
 <br>
+<br>
 This application can be highly useful for individuals with mobility impairments who might find traditional input devices like keyboards or mice challenging to use.
 <br>
 Contactless Control:
+<br>
 <br>
 In environments where hygiene is a concern (e.g., in medical settings or public kiosks), this contactless method of controlling audio can be advantageous.
 <br>
 Entertainment Systems:
 <br>
+<br>
 The project can be integrated into home entertainment systems, allowing users to control the volume of their media playback without needing a remote or physical interaction.
 <br>
 Smart Home Integration:
 <br>
+<br>
 The gesture-based control could be expanded to manage other smart home devices, providing a seamless and intuitive user experience.
 <br>
 Public Spaces:
+<br>
 <br>
 In public spaces like museums, galleries, or exhibitions, where interactive displays might require audio control, this technology could be employed to allow users to adjust the volume in a contactless and intuitive manner.
