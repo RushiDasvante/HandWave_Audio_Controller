@@ -12,6 +12,7 @@ import numpy as np
 from comtypes import CLSCTX_ALL
 from playsound import playsound
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
+import pygame
 
 # Welcome message and program start information
 print("                                     Welcome!...Program is starting in few seconds.......")
@@ -28,14 +29,14 @@ print("\n                                   ...........🎵 Playing  Demo  song 
 
 # Flag to indicate the program is running
 a = True
+# Initialize pygame mixer for controlling the song
+pygame.mixer.init()
 
 # Function to play the demo song
-def play():
-    playsound(r"D:\Desktop\my work\HandWave Audio Controller\perfect.mp3")
+pygame.mixer.music.load(r"D:\Desktop\my work\Project_audio_controller\demo_song.mp3")
 
-# Create a thread to run the play function in the background
-audio_thread = threading.Thread(target=play)
-audio_thread.start()
+pygame.mixer.music.play(-1)  # Play the song in a loop (-1 means loop indefinitely)
+
 
 # Ignore potential warning messages
 warnings.filterwarnings("ignore")
@@ -158,6 +159,8 @@ with mp_hands.Hands(
 
         # Check if the 'q' key is pressed to exit the program
         if cv2.waitKey(1) & 0xFF == ord('q'):
+            pygame.mixer.music.stop()  # Stop the song when 'q' is pressed
+
             break
 
 # Release the camera and destroy all windows
