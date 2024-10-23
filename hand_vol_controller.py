@@ -122,6 +122,7 @@ with mp_hands.Hands(
                 # Check if all fingers are open (exit condition)
                 if all(fingers_open):
                     print("All fingers are open. Exiting program.")
+                    pygame.mixer.music.stop()  # Stop the song 
                     time.sleep(5)
                     break
 
@@ -159,7 +160,7 @@ with mp_hands.Hands(
 
         # Check if the 'q' key is pressed to exit the program
         if cv2.waitKey(1) & 0xFF == ord('q'):
-            pygame.mixer.music.stop()  # Stop the song when 'q' is pressed
+            
 
             break
 
